@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @truck.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @truck.location %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @truck.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @truck.longitude %>
+</p>
+
+<p>
+  <strong>Number of menu options:</strong>
+  <%= @truck.number_of_menu_options %>
+</p>
+
+<p>
+  <strong>Menu:</strong>
+  <%= @truck.menu %>
+</p>
+
+<%= link_to 'Edit', edit_truck_path(@truck) %> |
+<%= link_to 'Back', trucks_path %>
